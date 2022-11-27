@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+<meta charset = "utf-8" >
+<style type='text/css'>
+.bi
+{
+   background-image: url('https://www.color-meanings.com/wp-content/uploads/2022/01/Brown-and-red-marble-texture.jpeg');
+}
+.kopce1
+{
+    position: relative;
+    right: -280px;
+    width: 200px;
+    font-size: 16px;
+    background-color: #1fbd8a;
+}
+.slika1
+{
+    position:absolute;
+    top:700px;
+    right:300px;
+    left : 1000px;
+    z-index: 2;
+    height : 250px;
+    width : 250px;
+}
+.rating input[type="radio"]:not(:nth-of-type(0)) {
+        border: 0;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+    }
+    .rating [type="radio"]:not(:nth-of-type(0)) + label {
+        display: none;
+    }
+    
+    label[for]:hover {
+        cursor: pointer;
+    }
+    
+    .rating .stars label:before {
+        content: "★";
+    }
+    
+    .stars label {
+        color: lightgray;
+    }
+    
+    .stars label:hover {
+        text-shadow: 0 0 1px #000;
+    }
+    
+    .rating [type="radio"]:nth-of-type(1):checked ~ .stars label:nth-of-type(-n+1),
+    .rating [type="radio"]:nth-of-type(2):checked ~ .stars label:nth-of-type(-n+2),
+    .rating [type="radio"]:nth-of-type(3):checked ~ .stars label:nth-of-type(-n+3),
+    .rating [type="radio"]:nth-of-type(4):checked ~ .stars label:nth-of-type(-n+4),
+    .rating [type="radio"]:nth-of-type(5):checked ~ .stars label:nth-of-type(-n+5) {
+        color: orange;
+    }
+    
+    .rating [type="radio"]:nth-of-type(1):focus ~ .stars label:nth-of-type(1),
+    .rating [type="radio"]:nth-of-type(2):focus ~ .stars label:nth-of-type(2),
+    .rating [type="radio"]:nth-of-type(3):focus ~ .stars label:nth-of-type(3),
+    .rating [type="radio"]:nth-of-type(4):focus ~ .stars label:nth-of-type(4),
+    .rating [type="radio"]:nth-of-type(5):focus ~ .stars label:nth-of-type(5) {
+        color: darkorange;
+    }
+    table.center 
+    {
+    margin-left: auto; 
+    margin-right: auto;
+        
+    }
+</style>
+<script type = "text/javascript">
+var datum=Date()
+  var count = (function prva ()
+  {
+      var counter=0;
+      return function prva() 
+      {
+          return counter +=1;
+      }
+    } )();
+    function displaycount()
+  {
+      document.getElementById("carrier").innerHTML=count();
+      
+  }
+  var count1 = (function vtora ()
+  {
+      var counter1=0;
+      return function vtora() 
+      {
+          return counter1 +=1;
+      }
+    } )();
+    function displaycount1()
+  {
+      document.getElementById("carrier1").innerHTML=count1();
+      
+  }
+  var count2 = (function treta ()
+  {
+      var counter2=0;
+      return function treta() 
+      {
+          return counter2 +=1;
+      }
+    } )();
+    function displaycount2()
+  {
+      document.getElementById("carrier2").innerHTML=count2();
+      
+  }
+  function strana2()
+  {
+      document.write('<body style="background-image: url(https://cdn11.bigcommerce.com/s-b7rvalhej9/images/stencil/1280x1280/products/328/547/Barn_Red_552f71a5-087b-40e8-bb90-15500e7df076__66557.1636129201.png?c=1); margin:auto; ">')
+      document.write('<table bgcolor="#bd3e1f" width="1000px" align="center"  style=" position: relative; top: 250px;">');
+      document.write('<th>');
+      document.write('<h1> Работи кои ме исполнуваат </h1>');
+      document.write('<h3> -Сакам да слушам музика, слушам секаков тип на музика ама најмногу од типот рап, рок и метал. Исто така отворен сум секогаш да слушнам нешто ново. </h3>');
+      document.write('<h3> -Често спортувам, најмногу сакам да играм фудбал и одбојка а исто така и често возам точак. </h3>');
+      document.write('<h3> -љубител сум на уметноста, сакам да посетувам изложби, да идам по концерти и престави и да творам уметност.</h3>');
+      document.write('<input type="button" value="sledna"  id="k2" name="b2" onclick="strana3()" style="background-color: #110d0c; color:#ffffff;" >');
+      document.write('</th>');
+      document.write('</table>');
+      document.write('</body>')
+      
+  }
+  function strana3()
+  {
+      document.body.innerHTML="";
+      document.body.style.backgroundImage="url(https://images.wallpapersden.com/image/download/instagram-gradient_a2pmbm2UmZqaraWkpJRoaWllrWZpaWU.jpg)";
+      document.body.style.backgroundRepeat="no-repeat";
+      document.write('<body style="background-image: url(https://lotofcolor.com/wp-content/uploads/2020/11/thumbnail-3.png);">')
+      document.writeln(' <strong > <h1 align="center"> Мини Инстаграм </h1> </strong>  ')
+      document.writeln('<table bgcolor="black" align="center" style="height:600px; weight:400px; margin:auto;">')
+      document.writeln('<tr bgcolor="SlateGray">')
+      document.writeln('<th> <input type="file", id="img" name="img" accept="image/*">   </th>')
+      document.writeln('<th> <input type="file", id="img" name="img" accept="image/*">   </th>')
+      document.writeln('<th> <input type="file", id="img" name="img" accept="image/*">   </th>')
+      document.writeln('</tr>')
+      document.writeln('<tr bgcolor="Cornsilk">')
+      document.writeln('<th> <button onclick="displaycount()"> ako sakas stavi like :) </button> <p id="carrier"> 0 </p>  </th>')
+      document.writeln('<th><button onclick="displaycount1()"> ako sakas stavi like :) </button> <p id="carrier1"> 0 </p>  </th>')
+      document.writeln('<th><button onclick="displaycount2()"> ako sakas stavi like :) </button> <p id="carrier2"> 0 </p>  </th>')
+      document.writeln('</tr>')
+      document.writeln('<tr bgcolor="FireBrick">')
+      document.writeln('<th> komentar <input type="comment", id="com" name="com" >  </th>')
+      document.writeln('<th> komentar <input type="comment", id="com" name="com" >  </th>')
+      document.writeln('<th> komentar <input type="comment", id="com" name="com" >  </th>')
+      document.writeln('</tr> </table>')
+      document.writeln('</body>');
+      
+      
+      
+      
+      document.write('<input type="button" value="sledna"  id="k3" name="b3" onclick="strana4()" style="position:relative; right: -1700px; bottom: -200px; margin:auto;" >')
+  }
+  function strana4()
+  {
+      document.body.style.backgroundImage="none"
+      document.body.innerHTML="";
+      document.writeln('<fieldset style="background-color:#75ced8; width:800px; height:400px; position: relative; margin:auto;">')
+      document.writeln('<legend> <strong> Блог </strong> </legend>')
+      document.writeln('<h3> подоле можете да ставите свој блог </h3>')
+      document.writeln('<a>' + datum + '</a>')
+      document.writeln('<p></p>');
+      document.writeln('<textarea rows="10" cols="100" name="comment" form="usrform" placeholder="enter text here..."></textarea> ')
+      document.writeln('<p></p>');
+      document.writeln('<input type="button" value="sledna" id="k3" name="b3" onclick="strana5()" > ')
+      document.writeln('</fieldset>')
+      
+  }
+  function strana5()
+  {
+      document.body.innerHTML="";
+      document.writeln('<h2 align="center"> Ваши импресии </h2>')
+      document.writeln('<fieldset style="border-color: #ffffff; position:relative; margin:auto; width:800px; height:400px;">');
+      document.writeln('<h4> корисничко име </h4>')
+      document.writeln('<input type="text">')
+      document.writeln('<h4 class="rating">')
+      document.writeln('<p></p>');
+      document.writeln('<input type="radio" id="demo-1" name="demo" value="1">')
+      document.writeln('<label for="demo-1"> 1 star </label>')
+      document.writeln('<input type="radio" id="demo-2" name="demo" value="2"> ')
+      document.writeln('<label for="demo-2"> 2 star </label> ')
+      document.writeln('<input type="radio" id="demo-3" name="demo" value="3">')
+      document.writeln('<label for="demo-3"> 3 star </label> ')
+      document.writeln('<input type="radio" id="demo-4" name="demo" value="4"> ')
+      document.writeln('<label for="demo-4"> 4 star </label> ')
+      document.writeln('<input type="radio" id="demo-5" name="demo" value="5"> ')
+      document.writeln('<label for="demo-5"> 5 star </label>')
+      
+      document.writeln('<div class="stars" >')
+      document.writeln('<label for="demo-1" arial-label="1 star" title="1 star"></label>')
+      document.writeln('<label for="demo-2" arial-label="2 star" title="2 star"></label>')
+      document.writeln('<label for="demo-3" arial-label="3 star" title="3 star"></label>')
+      document.writeln('<label for="demo-4" arial-label="4 star" title="4 star"></label>')
+      document.writeln('<label for="demo-5" arial-label="5 star" title="5 star"></label>')
+      document.writeln('</div>')
+      
+      document.writeln('</h4>')
+      document.writeln('<h4> Коментар </h4> ')
+      document.writeln('<textarea rows="5" cols="100" name="comment" for="usrfom"></textarea>')
+      document.writeln('<p></p>');
+      document.writeln('<input type="button" value="sledna" id="k4" name="b4" onclick="strana6()" >')
+      document.writeln('</fieldset>');
+    }
+    function strana6()
+    {
+        document.body.innerHTML="";
+        document.body.style.backgroundImage="url(https://img.freepik.com/free-psd/popular-3d-social-media-icons-coming-out-phone_134542-615.jpg?w=2000) ";
+        document.body.style.backgroundRepeat="no-repeat";
+        document.body.style.backgroundSize="3440px 1440px";
+        document.writeln('<h2 align="center"> Контакт </h2>')
+        document.writeln('<p align="center"><a href="https://github.com/Stefan1606">Github</a></p>')
+        document.writeln('<p align="center"><a href="https://www.reddit.com/user/stefan160601">Reddit</a></p>')
+        document.writeln('<p align="center"><a href="https://www.facebook.com/stefan.domaz">Facebook</a></p>')
+        document.writeln('<p align="center"><a href="mailto:stefan.domazetovski@gmail.com">Стефан</a></p>')
+    }
+  
+  
+</script> 
+</head>
+
+<body style="background-image: url('https://images.unsplash.com/photo-1557683311-eac922347aa1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8Ymx1ZSUyMGFuZCUyMHB1cnBsZXxlbnwwfHwwfHw%3D&w=1000&q=80'); ">
+<fieldset style="background-color:#a43ead; width:800px; height:900px; position: relative; margin:auto; ">
+    
+<strong><h1 align="center" > проектна задача </h1></strong>
+<fieldset style="background-color:#75ced8; width:800px; height:700px; " >
+<h1>
+кратко cv
+</h1>
+
+<h4> 
+Јас сум Стефан Домазетовски, имам 21 година, роден сум на 16.06.2001 во Скопје.  имам завршено во гимназијата СУГС Гимназија Орце Николов, а моментално сум на факултетот за електротехника и информациски технологии или на кратко кажано феит.  
+</h4>
+<input type="button" class="kopce1" value="sledna"  id="k1" name="b1" onclick="strana2()"  >
+</fieldset>
+</fieldset>
+</body>
+</html>
